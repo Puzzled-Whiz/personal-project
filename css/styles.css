@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --rich-black-fogra-39: #070707ff;
+    --alabaster: #ecebe4ff;
+    --moss-green: #898952ff;
+    --magenta-process: #f31693ff;
+    --chinese-violet: #835d7fff;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Chelsea Market', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    background-color: var(--chinese-violet);
+    border: 0.1rem solid black;
+}
+
+.logo {
+    width: auto;
+    height: 15vh;
+}
+
+.menu-button {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+/* Main container styles */
+.main-container {
+    height: 60vh;
+}
+
+
+/* Footer styles */
+.footer-container {
+    border: 0.1rem black solid;
+    height: 20vh;
+}
