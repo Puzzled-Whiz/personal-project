@@ -147,7 +147,7 @@ nav ul li a:hover {
         left: -30rem;
         top: 0;
         z-index: 100;
-        width: 28rem;
+        width: 20rem;
         height: 100vh;
         background-color: var(--clr-primary);
         transition: 0.2s;
