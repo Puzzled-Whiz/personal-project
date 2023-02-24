@@ -1,39 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hang with Me | Home</title>
+    <link rel="stylesheet" href="./css/styles.css" />
     <script defer src="./js/scripts.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/0c1d14bd53.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <header>
-        <nav class="navbar-container">
-            
-            <div>
-                <a href="./index.html"><img class="logo" src="./images/sleeping-5120269_1280.png"></a>
-            </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/0c1d14bd53.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="primary-header">
+      <div class="logo-img">
+        <img
+          src="/images/sleeping-5120269_1280.png"
+          alt="Sleeping sloth cartoon"
+        />
+      </div>
+      <input type="checkbox" id="nav_check" hidden />
+      <nav>
+        <div class="logo-img">
+          <img
+            src="/images/sleeping-5120269_1280.png"
+            alt="Sleeping sloth cartoon"
+          />
+        </div>
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Resources</a>
+          </li>
+          <li>
+            <a href="#">Login</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
 
-            <div class="menu-button">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-
-        </nav>
+      <label for="nav_check" class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </label>
     </header>
 
-    <div class="main-container">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora temporibus quo officia beatae eos necessitatibus molestiae quasi saepe a, ipsa dolores ducimus velit consectetur voluptatem, atque maxime? Ab, dignissimos iusto.</p>
-    </div>
+    <main>
+      <section class="intro">
+        <h2 class="section-title">
+          Accessible <span class="text-bold">relaxation</span> and
+          <span class="text-bold">tranquility</span> for when you need it most.
+        </h2>
+      </section>
 
+      <section class="about-us">
+        <header>
+          <h2>About Us</h2>
+        </header>
+        <div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae nam
+            officia eveniet facilis odit! Voluptates incidunt neque ipsum
+            molestiae illo, quibusdam non error iste minima reiciendis est
+            voluptas saepe a?
+          </p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Voluptates, dignissimos!
+          </p>
+        </div>
+      </section>
 
-    <footer class="footer-container">
-    
+      <section class="resources">
+        <header>
+          <h2 class="section-title">Resources</h2>
+        </header>
+        <p></p>
+        <div class="btn-group">
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </section>
+
+      <section aria-label="Newest Photos" class="img-slider">
+        <div class="carousel" data-carousel>
+          <button class="carousel-button prev" data-carousel-button="prev" >&#8656;</button>
+          <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+          <ul data-slides>
+            <li class="slide" data-active>
+              <img src="/images/mental-health-awareness.jpg" alt="Cartoon brain in meditation pose" />
+              "Image by <a href="https://www.freepik.com/free-vector/mental-health-awareness-concept_7967271.htm#query=mental%20health&position=16&from_view=search&track=ais">Freepik</a>"
+            </li>
+            <li class="slide">
+              <img src="/images/science-well-being.png" alt="About Yale's Free Science of Well-Being Course" />
+            </li>
+            <li class="slide">
+              <img src="/images/sleep-podcast.png" alt="About Sleep with Me Podcast" />
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <ul class="footer-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <ul class="footer-social">
+        <li>
+          <a href=""><i class="fa-brands fa-github fa-lg"></i></a>
+        </li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+      </ul>
     </footer>
-</body>
+  </body>
 </html>
