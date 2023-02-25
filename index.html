@@ -9,30 +9,18 @@
     <script defer src="./js/scripts.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/0c1d14bd53.js"
-      crossorigin="anonymous"
-    ></script>
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Montserrat&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/0c1d14bd53.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header class="primary-header">
       <div class="logo-img">
-        <img
-          src="/images/sleeping-5120269_1280.png"
-          alt="Sleeping sloth cartoon"
-        />
+        <img src="/images/sleeping-5120269_1280.png" alt="Sleeping sloth cartoon" />
       </div>
       <input type="checkbox" id="nav_check" hidden />
       <nav>
         <div class="logo-img">
-          <img
-            src="/images/sleeping-5120269_1280.png"
-            alt="Sleeping sloth cartoon"
-          />
+          <img src="/images/sleeping-5120269_1280.png" alt="Sleeping sloth cartoon" />
         </div>
         <ul>
           <li>
@@ -59,10 +47,7 @@
 
     <main>
       <section class="intro">
-        <h2 class="section-title">
-          Accessible <span class="text-bold">relaxation</span> and
-          <span class="text-bold">tranquility</span> for when you need it most.
-        </h2>
+        <h2 class="section-title">Accessible <span class="text-bold">relaxation</span> and <span class="text-bold">tranquility</span> for when you need it most.</h2>
       </section>
 
       <section class="about-us">
@@ -71,15 +56,9 @@
         </header>
         <div>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae nam
-            officia eveniet facilis odit! Voluptates incidunt neque ipsum
-            molestiae illo, quibusdam non error iste minima reiciendis est
-            voluptas saepe a?
+            <span class="text-emphasized">Free</span> resources to make mental health accessible to <span class="text-emphasized text-double-underline">anyone</span>, <span class="text-emphasized text-double-underline">anytime</span>, <span class="text-emphasized text-double-underline">anywhere</span>.
           </p>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Voluptates, dignissimos!
-          </p>
+          <p>Join now to start tracking your moods & make the most of your journey to a healthier, happier you.</p>
         </div>
       </section>
 
@@ -87,26 +66,40 @@
         <header>
           <h2 class="section-title">Resources</h2>
         </header>
-        <p></p>
         <div class="btn-group">
           <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+        <div>
+          <ul class="resources-links">
+            <li>
+              <a href="https://meditofoundation.org/about" target="”_blank”">Medito Foundation</a>
+            </li>
+            <li>
+              <a href="https://www.sleepwithmepodcast.com/meet-scooter/" target="”_blank”">Sleep With Me Podcast</a>
+            </li>
+            <li>
+              <a href="https://www.coursera.org/learn/the-science-of-well-being" target="”_blank”">Yale's The Science of Well-Being Course</a>
+            </li>
+          </ul>
         </div>
       </section>
 
       <section aria-label="Newest Photos" class="img-slider">
         <div class="carousel" data-carousel>
-          <button class="carousel-button prev" data-carousel-button="prev" >&#8656;</button>
+          <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
           <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
           <ul data-slides>
-            <li class="slide" data-active>
+            <li class="slide" >
               <img src="/images/mental-health-awareness.jpg" alt="Cartoon brain in meditation pose" />
-              "Image by <a href="https://www.freepik.com/free-vector/mental-health-awareness-concept_7967271.htm#query=mental%20health&position=16&from_view=search&track=ais">Freepik</a>"
+              Image by <a href="https://www.freepik.com/free-vector/mental-health-awareness-concept_7967271.htm#query=mental%20health&position=16&from_view=search&track=ais"> Freepik</a>
+            </li>
+            <li class="slide" data-active>
+              <img src="/images/sloth-meditate.png" alt="Cartoon sloth in meditation pose" />
+              Image by <a href="https://www.freepik.com/free-vector/cute-sloth-yoga-cartoon-icon-illustration_11167789.htm#query=mental%20health%20sloth&position=24&from_view=search&track=ais"> catalyststuff</a> on Freepik
             </li>
             <li class="slide">
-              <img src="/images/science-well-being.png" alt="About Yale's Free Science of Well-Being Course" />
-            </li>
-            <li class="slide">
-              <img src="/images/sleep-podcast.png" alt="About Sleep with Me Podcast" />
+              <img src="/images/mind-map.jpg" alt="Cartoon outlining common signs and/or symptoms of poor mental health"/>
+              Image by <a href="https://www.freepik.com/free-vector/hand-drawn-world-mental-health-day-background_31150903.htm#query=mental%20health%20fun&position=7&from_view=search&track=ais">Freepik</a>
             </li>
           </ul>
         </div>
@@ -114,21 +107,22 @@
     </main>
 
     <footer>
-      <ul class="footer-nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Resources</a></li>
-        <li><a href="#">Login</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
+      <div class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="#">Resources</a>
+        <a href="#">Login</a>
+        <a href="#">Contact</a>
+      </div>
 
-      <ul class="footer-social">
-        <li>
-          <a href=""><i class="fa-brands fa-github fa-lg"></i></a>
-        </li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-      </ul>
+      <div class="footer-social">
+        <a href="https://github.com/Puzzled-Whiz/personal-project.git" target="”_blank”"><i class="fa-brands fa-github fa-3x"></i></a>
+        <a href="https://www.linkedin.com/in/miguel-troncoso-castro" target="”_blank”"><i class="fa-brands fa-linkedin fa-3x"></i></a>
+        <a href="https://codesquad.org" target="”_blank”"><img src="/images/CodeSquad-logo-b.png" alt="CodeSquad logo" /></a>
+      </div>
+
+      <div class="footer-legal">
+        <p>Copyright &copy 2023 Miguel Troncoso-Castro. All rights reserved.</p>
+      </div>
     </footer>
   </body>
 </html>
