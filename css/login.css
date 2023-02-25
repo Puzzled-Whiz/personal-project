@@ -1,0 +1,44 @@
+/* Colors */
+:root {
+    --clr-text: #ecebe4ff;
+    --clr-bold: #12375c;
+    --clr-primary: #312b6c;
+    --clr-accent: #8c84e4;
+    --clr-nav: #faf4fc;
+}
+
+/* Login Page Styles */
+
+.form-container {
+    display: flex;
+    background-color: var(--clr-text);
+    justify-content: center;
+    align-items: center;
+}
+
+.form-login {
+    border-radius: 0.5rem;
+    max-width: 40rem;
+}
+
+.login-header {
+    text-align: center;
+    font-size: larger;
+    color: var(--clr-bold);
+}
+
+form {
+    margin-top: 2rem;
+    height: 40vh;
+}
+
+.form-field {
+    width: 100%;
+    height: auto;
+}
+
+input[type="email"],
+input[type="password"] {
+    height: 100%;
+    width: 100%;
+}
