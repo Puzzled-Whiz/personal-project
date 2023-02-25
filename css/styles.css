@@ -158,48 +158,6 @@ nav ul li a:hover {
     background-color: var(--clr-nav);
 }
 
-@media only screen and (max-width: 1100px) {
-
-    nav {
-        position: absolute;
-        left: -30rem;
-        top: 0;
-        z-index: 100;
-        width: 20rem;
-        height: 100vh;
-        background-color: var(--clr-primary);
-        transition: 0.2s;
-        box-shadow: 0.2rem 0 2rem 0 rgba(0, 0, 0, 0.05);
-    }
-
-    #nav_check:checked~nav {
-        left: 0;
-    }
-
-    nav .logo-img {
-        display: block;
-        height: 7rem;
-        display: flex;
-        align-items: center;
-        margin-left: 3rem;
-    }
-
-    nav ul li a {
-        margin-bottom: 0.5rem;
-        padding: 1rem 1.5rem;
-        border-radius: 0.5rem;
-    }
-
-    nav ul {
-        display: block;
-        padding: 0 2rem;
-        margin-top: 3rem;
-    }
-
-    .hamburger {
-        display: block;
-    }
-}
 
 
 /* Buttons */
@@ -385,4 +343,50 @@ footer a {
 
 .footer-legal {
     margin-top: 1.25rem;
+}
+
+/* Media Queries for larger screen sizes */
+
+/* Mobile Hamburger Menu media query */
+@media only screen and (max-width: 1100px) {
+
+    nav {
+        position: absolute;
+        left: -30rem;
+        top: 0;
+        z-index: 100;
+        width: 20rem;
+        height: 100vh;
+        background-color: var(--clr-primary);
+        transition: 0.2s;
+        box-shadow: 0.2rem 0 2rem 0 rgba(0, 0, 0, 0.05);
+    }
+
+    #nav_check:checked~nav {
+        left: 0;
+    }
+
+    nav .logo-img {
+        display: block;
+        height: 7rem;
+        display: flex;
+        align-items: center;
+        margin-left: 3rem;
+    }
+
+    nav ul li a {
+        margin-bottom: 0.5rem;
+        padding: 1rem 1.5rem;
+        border-radius: 0.5rem;
+    }
+
+    nav ul {
+        display: block;
+        padding: 0 2rem;
+        margin-top: 3rem;
+    }
+
+    .hamburger {
+        display: block;
+    }
 }
