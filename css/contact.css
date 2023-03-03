@@ -7,4 +7,45 @@
     --clr-primary: #312b6c;
     --clr-accent: #8c84e4;
     --clr-nav: #faf4fc;
+
+
+    /* this is strictly for text area font */
+    --ff-body: 'Montserrat', sans-serif;
+}
+
+.form-content {
+    padding: 7rem 4rem;
+}
+
+.text-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 5.5rem; */
+}
+
+textarea {
+    font-family: var(--ff-body);
+    resize: none;
+    height: 20rem;
+    width: 30rem;
+    margin: 1rem;
+}
+
+small {
+    color: var(--clr-bold);
+    font-size: xx-small;
+}
+
+@media(min-width: 481px) {
+    textarea {
+        height: 20rem;
+        width: 50rem;
+        /* this is to make font size bigger for larger screens in textarea */
+        font-size: 2rem;
+    }
+
+    small {
+        font-size: small;
+    }
 }

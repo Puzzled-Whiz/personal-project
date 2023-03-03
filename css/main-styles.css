@@ -38,12 +38,13 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-
-    /* this is to keep footer at bottom w/out creating empty space */
     width: 100%;
     max-width: 100vw;
     overflow-x: hidden;
     overflow-y: auto;
+
+    /* this is to keep footer at bottom w/out creating empty space */
+
 }
 
 /* Images */
@@ -126,6 +127,14 @@ nav ul li a {
     background-color: var(--clr-accent);
     color: var(--clr-bold);
     text-decoration: none;
+}
+
+nav ul li a:link {
+    background-color: var(--clr-nav);
+}
+
+nav ul li a:visited {
+    background-color: var(--clr-accent);
 }
 
 nav ul li a:hover {
@@ -343,9 +352,13 @@ footer a {
 }
 
 /* Media Queries for larger screen sizes */
+/* Desktop 769px-1024px+ */
+@media (min-width: 769px) {
+    
+}
 
 /* Mobile Hamburger Menu media query */
-@media only screen and (max-width: 1100px) {
+@media (max-width: 769px) {
 
     nav {
         position: absolute;
