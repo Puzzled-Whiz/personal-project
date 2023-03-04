@@ -13,6 +13,7 @@
     --ff-body: 'Montserrat', sans-serif;
 }
 
+
 .form-content {
     padding: 7rem 4rem;
 }
@@ -30,6 +31,7 @@ textarea {
     height: 20rem;
     width: 30rem;
     margin: 1rem;
+    opacity: 50%;
 }
 
 small {

@@ -230,7 +230,9 @@ nav ul li a:hover {
     color: var(--clr-primary);
 }
 
-.img-slider {
+/* Image Slider */
+
+/* .img-slider {
     margin: 0;
     padding: 0;
 }
@@ -264,7 +266,6 @@ nav ul li a:hover {
     height: 60%;
     object-fit: cover;
     object-position: center;
-    /* note to self: make a media query so that on larger screen sizes images do not get cut off! */
 }
 
 .slide[data-active] {
@@ -304,7 +305,7 @@ nav ul li a:hover {
 
 .carousel-button.next {
     right: 4rem;
-}
+} */
 
 /* Footer */
 footer {
