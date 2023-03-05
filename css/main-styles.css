@@ -55,7 +55,7 @@ img {
 
 /* Sections */
 section {
-    padding: 4rem 0.5rem;
+    padding: 4rem 1rem;
 }
 
 
@@ -310,7 +310,7 @@ nav ul li a:hover {
 /* Footer */
 footer {
     background-color: var(--clr-primary);
-    padding: 3rem 1rem;
+    padding: 4rem 1rem;
     color: var(--clr-text);
 }
 
@@ -354,9 +354,7 @@ footer a {
 
 /* Media Queries for larger screen sizes */
 /* Desktop 769px-1024px+ */
-@media (min-width: 769px) {
-    
-}
+@media (min-width: 769px) {}
 
 /* Mobile Hamburger Menu media query */
 @media (max-width: 769px) {
