@@ -77,12 +77,13 @@ form a:hover {
 }
 
 .fixed-bg-img {
+    background-image: url(/images/mind-map.jpg);
     max-width: 100%;
     height: 80vh;
     background-position: center;
     background-size: cover;
-    background-image: url(/images/mind-map.jpg);
     background-attachment: fixed;
+    
 
     color: var(--clr-primary);
     display: flex;

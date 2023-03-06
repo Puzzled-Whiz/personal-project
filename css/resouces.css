@@ -36,7 +36,7 @@
 
 /* !!! background images are inserted as inline styles to make easier to update as needed & not necessary to make multiple instances of styles in css for each image !!! */
 .resource-img {
-    
+
     /* Need to set div height for images to be contained within div */
     min-height: 15vh;
 
@@ -58,4 +58,30 @@
 .resource-link:hover {
     color: var(--clr-accent);
     font-size: 1.7rem;
+}
+
+/* Scroll Btn */
+.scroll-btn {
+    max-width: 6rem;
+    height: 4rem;
+    color: var(--clr-text);
+    background-color: var(--clr-bold);
+    opacity: 85%;
+    border-radius: 0.5rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.scroll-btn:active {
+    background-color: var(--clr-accent);
+    color: var(--clr-text);
+}
+
+/* Media Query for Scroll Button (only appears on mobile/tablet) */
+@media (min-width:1023px) {
+    .scroll-btn {
+        display: none;
+    }
 }
