@@ -1,10 +1,61 @@
 /* Resouces Page Styles */
 
-/* Colors */
 :root {
+    /* Colors */
     --clr-text: #ecebe4ff;
     --clr-bold: #12375c;
     --clr-primary: #312b6c;
     --clr-accent: #8c84e4;
     --clr-nav: #faf4fc;
+
+    /* Fonts */
+    --ff-logo: ;
+    --ff-title: 'Chelsea Market', cursive;
+    --ff-body: 'Montserrat', sans-serif;
+}
+
+.resources {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* creates margin/gap between flex items */
+    gap: 5rem;
+}
+
+.resource-card {
+    background-color: var(--clr-accent);
+    box-shadow: 0rem 0rem 2rem rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 3rem;
+}
+
+.resource-card:hover {
+    box-shadow: 0rem 0rem 2rem rgba(0, 0, 0, 1);
+}
+
+/* !!! background images are inserted as inline styles to make easier to update as needed & not necessary to make multiple instances of styles in css for each image !!! */
+.resource-img {
+    
+    /* Need to set div height for images to be contained within div */
+    min-height: 15vh;
+
+    /* To make images responsive within div */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.resource-link {
+    /* display: block anchor tag to make it behave as a div & have it take up full view-width of screen (for easier styling purposes) */
+    display: block;
+    background-color: var(--clr-nav);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: var(--clr-primary);
+}
+
+.resource-link:hover {
+    color: var(--clr-accent);
+    font-size: 1.7rem;
 }

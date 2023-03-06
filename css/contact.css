@@ -1,7 +1,8 @@
 /* Contact Page Styles */
 
-/* Colors */
 :root {
+
+    /* Colors */
     --clr-text: #ecebe4ff;
     --clr-bold: #12375c;
     --clr-primary: #312b6c;
@@ -9,7 +10,7 @@
     --clr-nav: #faf4fc;
 
 
-    /* this is strictly for text area font */
+    /* Text Area font */
     --ff-body: 'Montserrat', sans-serif;
 }
 
