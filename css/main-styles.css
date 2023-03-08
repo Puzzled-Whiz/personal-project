@@ -165,24 +165,8 @@ nav ul li a:hover {
 
 
 /* Buttons */
-.btn-group {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.btn {
-    padding: 0.5rem 1.75rem;
-    color: whitesmoke;
-    text-decoration: none;
-    display: block;
-    border-radius: 1rem;
-}
 
 
-.btn-primary {
-    background-color: var(--clr-accent);
-}
 
 /* Homepage styles */
 
@@ -208,6 +192,26 @@ nav ul li a:hover {
     color: var(--clr-bold);
 }
 
+
+.home-resources-btn /* This is really a div styled as a button */ {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.home-resources-btn a {
+    padding: 0.5rem 1.75rem;
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;
+    border-radius: 1rem;
+    background-color: var(--clr-accent);
+}
+
+.home-resources-btn a:hover {
+    font-size: 1.7rem;
+}
+
 .home-resources-links {
     text-align: left;
     display: flex;
@@ -224,86 +228,13 @@ nav ul li a:hover {
 }
 
 .home-resources-links a {
-    /* text-decoration: none; */
     color: var(--clr-primary);
 }
 
-/* Image Slider */
-
-/* .img-slider {
-    margin: 0;
-    padding: 0;
+.home-resources-links a:hover {
+    font-size: 1.67rem;
+    color: var(--clr-accent);
 }
-
-.carousel {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-}
-
-.carousel>ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.slide {
-    position: absolute;
-    inset: 0;
-    opacity: 0;
-    transition: 200ms opacity ease-in-out;
-    transition-delay: 200ms;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.slide>img {
-    width: 80%;
-    height: 60%;
-    object-fit: cover;
-    object-position: center;
-}
-
-.slide[data-active] {
-    z-index: 1;
-    opacity: 1;
-    transition-delay: 0ms;
-}
-
-.carousel-button {
-    position: absolute;
-    z-index: 2;
-    background: none;
-    border: none;
-    font-size: 4rem;
-    top: 50%;
-    transform: translateY(-50%);
-    color: rgba(255, 255, 255, 0.5);
-    cursor: pointer;
-    border-radius: 0.55rem;
-    padding: 0 1rem;
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
-.carousel-button:hover,
-.carousel-button:focus {
-    color: whitesmoke;
-    background-color: rgba(0, 0, 0, 0.2);
-}
-
-.carousel-button:focus {
-    outline: 0.1rem solid black;
-}
-
-.carousel-button.prev {
-    left: 4rem;
-}
-
-.carousel-button.next {
-    right: 4rem;
-} */
 
 /* Footer */
 footer {
@@ -351,6 +282,7 @@ footer a {
 }
 
 /* Media Queries for larger screen sizes */
+
 /* Desktop 769px-1024px+ */
 @media (min-width: 769px) {}
 
