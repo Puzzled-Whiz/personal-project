@@ -1,109 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hang with Me | Home</title>
-    <link rel="stylesheet" href="/css/main-styles.css" />
-    <script defer src="/js/scripts.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Montserrat&display=swap" rel="stylesheet" />
-    <script src="https://kit.fontawesome.com/0c1d14bd53.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <header class="primary-header">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hang with Me | Home</title>
+  <link rel="stylesheet" href="/css/main-styles.css" />
+  <script defer src="/js/scripts.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Montserrat&display=swap"
+    rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/0c1d14bd53.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="primary-header">
+    <div class="logo-img">
+      <a href="index.html"><img src="/images/sleeping-sloth.png" alt="Sleeping sloth cartoon" /></a>
+    </div>
+    <input type="checkbox" id="nav_check" hidden />
+    <nav>
       <div class="logo-img">
-        <a href="index.html"><img src="/images/sleeping-sloth.png" alt="Sleeping sloth cartoon" /></a>
+        <img src="/images/sleeping-sloth.png" alt="Sleeping sloth cartoon" />
       </div>
-      <input type="checkbox" id="nav_check" hidden />
-      <nav>
-        <div class="logo-img">
-          <img src="/images/sleeping-sloth.png" alt="Sleeping sloth cartoon" />
-        </div>
-        <ul>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="resources.html">Resources</a>
+        </li>
+        <li>
+          <a href="login.html">Login</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <label for="nav_check" class="hamburger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </label>
+  </header>
+
+  <!-- Content for Home page here -->
+  <main>
+    <section class="intro">
+      <h2 class="section-title">Accessible <span class="text-bold">relaxation</span> and <span
+          class="text-bold">tranquility</span> for when you need it most.</h2>
+    </section>
+
+    <section class="about-us">
+      <header>
+        <h2>About Us</h2>
+      </header>
+      <div>
+        <p>
+          <span class="text-emphasized">Free</span> resources to make mental health accessible to <span
+            class="text-emphasized text-double-underline">anyone</span>,
+          <span class="text-emphasized text-double-underline">anytime</span>, <span
+            class="text-emphasized text-double-underline">anywhere</span>.
+        </p>
+        <p>Join now to start tracking your moods &#38; make the most of your journey to a healthier, happier you.</p>
+      </div>
+    </section>
+
+    <section class="home-resources">
+      <header>
+        <h2 class="section-title">Resources</h2>
+      </header>
+      <div class="home-resources-btn">
+        <a href="/resources.html">Learn More</a>
+      </div>
+      <div>
+        <ul class="home-resources-links">
           <li>
-            <a href="index.html">Home</a>
+            <a href="https://meditofoundation.org/about" target="”_blank”" rel="noopener noreferrer">Medito
+              Foundation</a>
           </li>
           <li>
-            <a href="resources.html">Resources</a>
+            <a href="https://www.sleepwithmepodcast.com/meet-scooter/" target="”_blank”" rel="noopener noreferrer">Sleep
+              With Me Podcast</a>
           </li>
           <li>
-            <a href="login.html">Login</a>
-          </li>
-          <li>
-            <a href="contact.html">Contact</a>
+            <a href="https://www.coursera.org/learn/the-science-of-well-being" target="”_blank"
+              rel="noopener noreferrer">Yale's The Science of Well-Being Course</a>
           </li>
         </ul>
-      </nav>
-
-      <label for="nav_check" class="hamburger">
-        <div></div>
-        <div></div>
-        <div></div>
-      </label>
-    </header>
-
-    <!-- Content for Home page here -->
-    <main>
-      <section class="intro">
-        <h2 class="section-title">Accessible <span class="text-bold">relaxation</span> and <span class="text-bold">tranquility</span> for when you need it most.</h2>
-      </section>
-
-      <section class="about-us">
-        <header>
-          <h2>About Us</h2>
-        </header>
-        <div>
-          <p>
-            <span class="text-emphasized">Free</span> resources to make mental health accessible to <span class="text-emphasized text-double-underline">anyone</span>,
-            <span class="text-emphasized text-double-underline">anytime</span>, <span class="text-emphasized text-double-underline">anywhere</span>.
-          </p>
-          <p>Join now to start tracking your moods &#38; make the most of your journey to a healthier, happier you.</p>
-        </div>
-      </section>
-
-      <section class="home-resources">
-        <header>
-          <h2 class="section-title">Resources</h2>
-        </header>
-        <div class="home-resources-btn">
-          <a href="/resources.html">Learn More</a>
-        </div>
-        <div>
-          <ul class="home-resources-links">
-            <li>
-              <a href="https://meditofoundation.org/about" target="”_blank”" rel="noopener noreferrer">Medito Foundation</a>
-            </li>
-            <li>
-              <a href="https://www.sleepwithmepodcast.com/meet-scooter/" target="”_blank”" rel="noopener noreferrer">Sleep With Me Podcast</a>
-            </li>
-            <li>
-              <a href="https://www.coursera.org/learn/the-science-of-well-being" target="”_blank" rel="noopener noreferrer">Yale's The Science of Well-Being Course</a>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <div class="footer-nav">
-        <a href="index.html">Home</a>
-        <a href="resources.html">Resources</a>
-        <a href="login.html">Login</a>
-        <a href="contact.html">Contact</a>
       </div>
+    </section>
+  </main>
 
-      <div class="footer-social">
-        <a href="https://github.com/Puzzled-Whiz/personal-project.git" target="”_blank”"><i class="fa-brands fa-github fa-3x"></i></a>
-        <a href="https://www.linkedin.com/in/miguel-troncoso-castro" target="”_blank”"><i class="fa-brands fa-linkedin fa-3x"></i></a>
-        <a href="https://codesquad.org" target="”_blank”"><img src="/images/CodeSquad-logo-b.png" alt="CodeSquad logo" /></a>
-      </div>
+  <footer>
+    <div class="footer-nav">
+      <a href="index.html">Home</a>
+      <a href="resources.html">Resources</a>
+      <a href="login.html">Login</a>
+      <a href="contact.html">Contact</a>
+    </div>
 
-      <div class="footer-legal">
-        <p>Copyright &copy 2023 Miguel Troncoso-Castro. All rights reserved.</p>
-      </div>
-    </footer>
-  </body>
+    <div class="footer-social">
+      <a href="https://github.com/Puzzled-Whiz/personal-project.git" target="”_blank”"><i
+          class="fa-brands fa-github fa-3x"></i></a>
+      <a href="https://www.linkedin.com/in/miguel-troncoso-castro" target="”_blank”"><i
+          class="fa-brands fa-linkedin fa-3x"></i></a>
+      <a href="https://codesquad.org" target="”_blank”"><img src="/images/CodeSquad-logo-b.png"
+          alt="CodeSquad logo" /></a>
+    </div>
+
+    <div class="footer-legal">
+      <p>Copyright &copy 2023 Miguel Troncoso-Castro. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
 </html>
